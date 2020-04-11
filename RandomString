@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор случайных строк</title>
+</head>
+<body>
+    <h1>Генератор случайных строк</h1>
+    <script>
+        
+        let alphabet = "йцукенгшщзхъфывапролджэячсмитьбю";
+        let randomString = "";
+        let x = 0;
+        
+        while (x < 6) {
+            
+            randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
+            console.log(randomString);
+            x ++;
+        }
+        
+        
+    </script>
+    
+</body>
+</html>
