@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Виселица</title>
+</head>
+<body>
+    <script>
+
+let name = prompt ("Как вас зовут?");
+console.log("Привет, " + name);
+
+let likesCats = confirm ("Тебе нравятся кошки?");
+if (likesCats) {
+    console.log("Ты классная кошка!");
+    } else {
+console.log("Что ж. Не проблема. Все ровно ты молодец!");        
+    }
+
+alert("JavaScript это здорово!");
+    </script>
+</body>
+</html>
